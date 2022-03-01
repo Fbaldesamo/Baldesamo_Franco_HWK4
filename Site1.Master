@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Baldesamo_Franco_HWK4.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <style>
+    body {background-color: #6AF20B;} 
+    </style>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+
+       
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div  style="background-color:white">
+            <asp:Image ID="Image1" runat="server" Height="167px" ImageUrl="download (5).png" Width="244px" />
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <div>
+            
+            <center> <asp:Label ID="Label1" runat="server" Text="About Us"></asp:Label> </center>
+            PAWS also runs an animal shelter called PARC (PAWS Animal Rehabilitation Center). It currently houses over 300 cats and dogs rescued from cruelty or neglect. Here, these animals are rehabilitated in the hope of finding them new homes and a second chance at a good life. There is also a low-cost clinic that provides veterinary services to the indigent community, including spay and neuter (kapon).</div>
+    </form>
+</body>
+</html>
